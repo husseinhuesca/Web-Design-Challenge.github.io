@@ -1,0 +1,74 @@
+/*Latitude navbnar style*/
+a.navbar_latitude{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    background-color: rgb(80, 175, 165);
+    text-decoration: none
+}
+
+/* navbar style*/
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+}
+
+/* header style*/
+h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: rgb(80, 175, 165);
+}
+
+/* screen adjustments*/
+@media(max-width:765px){
+    .navbar.bg-light{
+        background-color: rgb(80, 175, 165)!important;    
+    }
+    .navbar-collapse{
+        background-color: #f8f8f8;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
+
+/* body background style*/
+body{
+    background-color: rgb(222, 222, 222);
+}
+
+.content.bg-white {
+    margin-top: 15px;
+}
+
+/* content style*/
+.content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+/* Text Style*/
+p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+/* summary image style*/
+.image_summary{
+    border: none;
+}
+
+.col-md-12{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom:35px;
+}
+
+/* image border style*/
+.pic{
+    border: 3px solid rgb(80, 175, 165);
+}
